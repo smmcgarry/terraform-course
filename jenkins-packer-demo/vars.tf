@@ -23,5 +23,5 @@ variable "JENKINS_VERSION" {
 }
 
 variable "APP_INSTANCE_COUNT" {
-  default = "0"
+  default = "1"
 }
