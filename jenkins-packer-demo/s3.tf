@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "terraform-state" {
-    bucket = "terraform-state-abc123a"
+    bucket = "terraform-state-abc123"
     acl = "private"
 
     tags {
