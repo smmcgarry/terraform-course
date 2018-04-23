@@ -10,9 +10,9 @@ variable "PATH_TO_PUBLIC_KEY" {
 variable "AMIS" {
   type = "map"
   default = {
-    us-east-1 = "ami-13be557e"
-    us-west-2 = "ami-06b94666"
-    eu-west-1 = "ami-844e0bf7"
+    us-east-1 = "ami-43a15f3e"
+    us-west-2 = "ami-4e79ed36"
+    eu-west-1 = "ami-f90a4880"
   }
 }
 variable "INSTANCE_DEVICE_NAME" {
